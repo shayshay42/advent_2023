@@ -57,7 +57,7 @@ def main(file_path):
 
 import time
 if __name__ == "__main__":
-    file_path = 'assets/almanac.txt'
+    file_path = 'assets/almanac_ex.txt'
     start_time = time.time()
     lowest_location_number = main(file_path)
     end_time = time.time()
